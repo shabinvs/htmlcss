@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(rgback.jpg);
+    background-size: cover;
+    
+}
+
+.nav_bar{
+    background-color: green;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.Dropdown{
+    position: relative;
+}
+
+.first_sub_menu{
+    display: none;
+    top: 55px;
+    left: 0;
+    width: 140px;
+    position: absolute;
+    background-color: green;
+}
+
+.Dropdown:hover .first_sub_menu{
+    display: block;
+}
+
+.second_sub_menu{
+    display: none;
+    position: absolute;
+    background-color: green;
+    width: 140px;
+    top: 67%;
+    left: 100%;
+}
+
+.Dropdown_two:hover .second_sub_menu{
+    display: block;
+} 
+
+ul li:hover{
+    background-color: rgb(53, 185, 53);
+    /* padding: 10px 20px; */
+}
+
