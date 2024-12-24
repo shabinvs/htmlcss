@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img3.jpg);
+    background-size: cover;
+}
+
+.nav_bar{
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_bar h1{
+    color: rgb(237, 130, 16);
+}
+
+.menu ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.first a:hover{
+    color: rgb(237, 130, 16);
+}
+
+.second{
+    background-color: rgb(237, 130, 16);
+}
+
+button{
+    background-color: rgb(237, 130, 16);
+    border: none;
+    color: white;
+    padding: 10px 20px; 
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.863);
+    min-height: 100vh
+}
+
+.content{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 550px;
+}
+
+.image img{
+    width: 480px;
+    transition: 4s ;
+}
+
+.main_contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 4px;
+}
+
+.content h1,p,button {
+    margin: 20px;
+}
+
+.content button a{
+    text-decoration: none;
+    color: white;
+}
+
+.image img:hover{
+    transform: rotate(180deg);
+}
