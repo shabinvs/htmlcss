@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav h5{
+    font-size: 10px;
+}
+
+nav h1{
+    color: rgb(186, 28, 28);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: antiquewhite;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav ul li i{
+    color: brown;
+    font-size: 20px;
+}
+
+
+.container_one{
+    background-image: url(/images/first_background.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    padding: 20px 40px;
+    align-content: center;
+}
+
+.container_one h1{
+    font-size: 56px;
+}
+
+.container_one p{
+    margin: 12px 0;
+}
+
+.btn-1{
+    background-color: rgb(197, 81, 32);
+    padding: 10px 25px;
+    color: white;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.container_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    height: 500px;
+    background-color: white;
+}
+
+.content_one{
+    width: 100%;
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.content_one p{
+    margin: 30px 0;
+}
+
+.image_one img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.btn-2{
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.container_three{
+    height: 350px;
+    background-color: rgb(197, 81, 32);
+    color: white;
+    align-content: center;
+}
+
+.quote{
+    width: 100%;
+    max-width: 750px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quote span{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.635);   
+}
+
+.container_four{
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards{
+    width: 100%;
+    max-width: 350px;
+    margin: 5px;
+}
+
+.cards img{
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+.cards p{
+    margin: 20px 0;
+}
+
+.container_five{
+    height: 480px;
+    background-color: rgb(43, 123, 119);
+    color: white;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about{
+    width: 100%;
+    max-width: 50%;
+}
+
+.about p{
+    margin: 20px 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: antiquewhite;
+    height: 70px;
+}
+
+footer h1{
+    color: rgb(186, 28, 28);
+    font-size: 23px;
+}
+
+footer h5{
+    font-size: 10px;
+}
+
+footer ul li{
+    display: inline;
+    list-style-type: none;
+    font-size: 22px;
+    margin: 0 15px;
+}
+
+footer ul li i{
+    color: rgb(43, 123, 119);
+}
+
+
+.data{
+    width: 50%;
+}
+
+.data_one form{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+form input{
+    width: 260px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.112);
+    border: none;
+    border-radius: 6px;
+}
+
+textarea{
+    width: 100%;
+    max-width: 550px;
+    height: 250px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.112);
+    border: none;
+    border-radius: 6px;
+    resize: none;
+}
+
+@media screen and (max-width: 500px){
+
+    .container_one{
+        height: auto;
+        padding: 30px;
+    }
+
+    .container_two{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .image_one{
+        margin: 10px 0;
+    }
+
+    .container_four{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container_five{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .data_one form{
+        flex-direction: column;
+    }
+
+    textarea{
+        width: 138%;
+    }
+
+    .nav h1{
+        font-size: 16px;
+    }
+
+    .nav h5{
+        font-size: 7px;
+    }
+
+    nav{
+        width: 250px;
+    }
+
+    .nav ul li i{
+        font-size: 15px;
+    }
+
+    .nav ul li{
+        display: inline-block;
+        margin: 0 20px;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    
+    .nav{
+        padding-right: 5px;
+    }
+}
