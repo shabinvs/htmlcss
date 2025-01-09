@@ -3,106 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <h1>UPCOVER</h1>
-        <div class="nav_links">
-            <ul>
-                <li><a class="links" href="#">HOME</a></li>
-                <li><a class="links" href="#">ABOUT</a></li>
-                <li><a class="links" href="#">SERVICES</a></li>
-                <li><a class="links" href="#">TESTIMONIAL</a></li>
-                <li><a class="links" href="#">PRICING</a></li>
-                <li><a class="links" href="#">BLOG</a></li>
-                <li><a class="links" href="#">CONTACT US</a></li>
-                <li><a class="btn-1" href="#">LOGIN</a></li>
-            </ul>       
+    
+    <nav class="navbar navbar-expand-lg bg-body-white px-4 py-3">
+        <div class="container-fluid d-flex justify-content-between">
+          <h1 class="navbar-brand" href="#">UPCOVER</h1>
+          <div class="links">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <button type="button" class="btn btn-success">Success</button>
+                  </li>
+                </ul>
+              </div>
+          </div>
         </div>
     </nav>
 
-    <div class="container_one">
-        <div class="content_one">
-            <h1>Revolutionizing Your <br><span>Business</span> with Upcover</h1>
-            <p>This is just a simple text made for this unique and awesome template, you can replace it with any text</p>
-            <button class="btn-2">GET STARTED</button>
-            <a href="#"><i class="fa-solid fa-circle-play"></i>&nbsp;&nbsp;WATCH NOW</a>
-        </div>
-        <div class="image_one">
-            <img src="images/img1.jpg" alt="">
-        </div>
-    </div>
-
-    <div class="container_two">
-        <div class="image_two">
-            <img src="images/image_two.jpg" alt="error">
-        </div>
-        <div class="content_two">
-            <h3>WHO ARE WE?</h3>
-            <h1>We're a global stakeholder relations and partnership building consultancy.</h1>
-            <p>Get instant helpful resources about anything on the only implement secure money transfer solutions, boost your daily efficiency connect to other app users and create your ower Techwird network, and much more with just a few taps commodo consequat.</p>
-            <button class="btn-3">Read More</button>
-        </div>
-    </div>
-
-    <div class="container_three">
-        <div class="content_three">
-            <h1>Our Serviecs</h1>
-            <p>This is sample text made for this unique and awesome template, you.com</p>
-            <p>replace it with any text</p>
-        </div>
-
-        <div class="cards">
-            <div class="cards_one">
-                <div class="card">
-                    <h1>Grow your buisness</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
-                    <a href="#" class="readmore">Read more</a>
+    <div class="home min-vh-100 p-3">
+        <div class="container-fluid p-4">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="contents">
+                        <h1 class="fw-bold first_head mt-3 mb-4">Revolutionizing Your <br><span>Business</span> with Upcover</h1>
+                        <p>This is just a simple text made for this unique and awesome template, you can replace it with any text</p>
+                        <button type="button" class="btn button-one text-white fw-bold my-3">GET STARTED</button>
+                        <button type="button" class="btn button-two text-dark fw-bold my-3"><i class="fa-regular fa-circle-play"></i>&nbsp;Watch Now</button>
+                    </div>
                 </div>
-                <div class="card">
-                    <h1>Drive More Sales</h1>
-                    <p>and worth is randoms, the read will be distracted and words in random, the der will not be distracted</p>
-                    <a href="#" class="readmore">Read more</a>
-                </div>
-                <div class="card">
-                    <h1>Handled by Experts</h1>
-                    <p>and words is random the mader will not be ded Discussion For Idea
-                        the dution of the and words random the aerot be distracte</p>
-                        <a href="#" class="readmore">Read more</a>
-                </div>
-                <div class="card">
-                    <h1>Discussion for Ideas</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
-                    <a href="#" class="readmore">Read more</a>
-                </div>
-            </div>
-            <div class="cards_two">
-                <div class="card">
-                    <h1>Web Design</h1>
-                    <p>the distribution of letters and words is rondons the
-                        der will be distracte from making</p>
-                        <a href="#" class="readmore">Read more</a>
-                </div>
-                <div class="card">
-                    <h1>network Security</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
-                    <a href="#" class="readmore">Read more</a>
-                </div>
-                <div class="card">
-                    <h1>Social Media</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
-                    <a href="#" class="readmore">Read more</a>
-                </div>
-                <div class="card">
-                    <h1>Design & Branding</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
-                    <a href="#" class="readmore">Read more</a>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="image_one p-4">
+                        <img src="images/img1.jpg" class="image-fluid">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="second_container min-vh-100 p-4">
+        <div class="container-fluid p-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="image_two">
+                        <img src="images/image_two.jpg" class="image-fluid rounded-pill" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="content_two mt-5">
+                        <h3 class="fw-bold mb-4">WHO ARE WE?</h3>
+                        <h1 class="my-4">We're a global stakeholder relations and partnership building consultancy.</h1>
+                        <p>Get instant helpful resources about anything on the only implement secure money transfer solutions, boost your daily efficiency connect to other app users and create your ower Techwird network, and much more with just a few taps commodo consequat.</p>
+                        <button type="button" class="btn button-one text-white my-3">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services min-vh-100 p-4">
+        <div class="container-fluid p-3">
+            <h1 class="text-center my-4">Our Services</h1>
+            <p class="text-center">This is sample text made for this unique and awesome template, you.com replace it with any text</p>
+        </div>
+        <div class="row g-4 p-5">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="service_cards p-5 shadow">
+                    <h3>Grow your buisness</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
+                    <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="service_cards p-5 shadow">
+                    <h3>Drive More Sales</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
+                    <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="service_cards p-5 shadow">
+                    <h3>Grow your buisness</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
+                    <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="service_cards p-5 shadow">
+                    <h3>Grow your buisness</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
+                    <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="service_cards p-5 shadow">
+                    <h3>Grow your buisness</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
+                    <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="service_cards p-5 shadow">
+                    <h3>Grow your buisness</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
+                    <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="service_cards p-5 shadow">
+                    <h3>Grow your buisness</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
+                    <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="service_cards p-5 shadow">
+                    <h3>Grow your buisness</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim autem quam fugit accusantium saepe</p>
+                    <a href="#" class="link">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
