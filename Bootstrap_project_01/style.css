@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px; 
+}
+h1 {
+    font-size: 25px;
+}
+
+.container_one{
+    background-image: url(/images/img1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    box-shadow: 0px 1px 3px rgb(167, 165, 165);
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.content_one{
+    margin-top: 200px;
+}
+
+.content_one h1{
+    font-size: 60px;
+}
+
+.logos{
+    height: auto;
+    background-color: rgba(225, 221, 221, 0.233);
+}
+
+.logos img{
+    width: 150px;
+    opacity: 0.2;
+}

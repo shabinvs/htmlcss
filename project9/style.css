@@ -236,8 +236,12 @@ textarea{
         height: auto;
     }
 
+    .btn-2{
+        margin-left: 120px;
+    }
+
     .image_one{
-        margin: 10px 0;
+        margin: 20px 0;
     }
 
     .container_four{
@@ -282,7 +286,7 @@ textarea{
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (min-width:412px) {
     
     .nav{
         padding-right: 5px;
